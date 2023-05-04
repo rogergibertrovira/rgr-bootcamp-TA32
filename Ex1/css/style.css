@@ -24,22 +24,22 @@ h3, p {
   color: white;
 }
 
-.form-control {
+.form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.container {
+.box {
   margin-top: 100px;
 }
 
-#form .col-6 {
+#form .columna {
   padding: 30px;
   margin-bottom: 30px;
   background-color: white;
   border-radius: 5px;
 }
 
-#form .btn {
+#form .boton {
   width: 100%;
 }
