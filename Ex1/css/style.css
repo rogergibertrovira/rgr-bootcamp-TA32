@@ -1,0 +1,45 @@
+body {
+  background-image: url(../img/raindrops.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 200%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h3, p {
+  text-align: left;
+  padding: 10px;
+}
+
+#main,
+#title,
+#bottom {
+  color: white;
+}
+
+#main p,
+#bottom p {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.form-control {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#form .col-6 {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#form .btn {
+  width: 100%;
+}
