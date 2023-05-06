@@ -1,0 +1,25 @@
+.row1 {
+  background-color: aqua;
+  align-items: center;
+  padding: 5px;
+}
+
+.column1 {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.column2 {
+  text-align: right;
+}
+
+.form1 {
+  margin-bottom: 20px;
+}
+
+.button1 {
+  font-size: medium;
+  background-color: transparent;
+  border: none;
+}

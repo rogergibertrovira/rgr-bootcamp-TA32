@@ -6,7 +6,8 @@ body {
   background-position: center;
 }
 
-h3, p {
+h3,
+p {
   text-align: left;
   padding: 10px;
 }
