@@ -1,0 +1,44 @@
+body {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #037af8;
+}
+
+.button1 {
+  color: black;
+  font-size: medium;
+  background-color: white;
+  border: 1px solid rgb(172, 172, 172);
+}
+
+.row1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+span {
+  padding: 5px;
+}
+
+th,
+td {
+  border: 1px solid rgb(172, 172, 172);
+  height: 4em;
+  vertical-align: middle;
+}
+
+.buttonLeft {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.buttonCenter {
+  border-radius: 0px;
+}
+
+.buttonRight {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
