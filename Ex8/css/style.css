@@ -1,0 +1,56 @@
+table {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(238, 238, 238);
+}
+
+td {
+    height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 65px;
+  padding: 5px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#operaciones {
+  padding: 15px;
+  text-align: right;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#resultado {
+  padding: 15px;
+  padding-bottom: 20px;
+  text-align: right;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40px;
+}
+
+#igual {
+    border: 1px black solid;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.num {
+    border: 1px black solid;
+    background-color: white;
+}
+
+.borrar {
+    border: 1px black solid;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.simbolo, .simbolo2 {
+    border: 1px black solid;
+    background-color: rgb(224, 224, 224);
+}
