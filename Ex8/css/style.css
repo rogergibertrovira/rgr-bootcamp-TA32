@@ -13,9 +13,10 @@ body {
 
 .row1 {
   text-align: end;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   padding-right: 15px;
-  padding-top: 20px;
+  margin-top: 20px;
+  height: 30px;
 }
 
 .row1 > h4 {
@@ -26,6 +27,7 @@ body {
   text-align: end;
   margin-bottom: 20px;
   padding-right: 15px;
+  height: 30px;
 }
 
 .row2 > h4 {

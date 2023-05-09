@@ -41,10 +41,10 @@ document.addEventListener(
     let operaciones = document.getElementById("operaciones");
     let resultado = document.getElementById("resultado");
 
-    if (e.target.className == "num" || e.target.className == "simbolo") {
+    if (e.target.className.includes("num") || e.target.className.includes("simbolo")) {
       // Comprueba si el ultimo caracter es un simbolo
       if (
-        e.target.className == "simbolo" &&
+        e.target.className.includes("simbolo") &&
         (operaciones.innerText.slice(-1) == "+" ||
           operaciones.innerText.slice(-1) == "-" ||
           operaciones.innerText.slice(-1) == "*" ||
@@ -68,16 +68,10 @@ document.addEventListener(
 
     // Calcula el resultado
     if (e.target.id == "igual") {
-     calculateResult();
-    }
-
-    if (e.target.textContent == "+/-") {
-      resultado.innerText = -Number(operaciones.innerText);
-      operaciones.innerText = "";
+      calculateResult();
     }
 
     if (e.target.textContent == "1/x") {
-      console.log(1 / Number(operaciones.innerText).toFixed(10));
       resultado.innerText = parseFloat(
         (1 / Number(operaciones.innerText)).toFixed(10)
       );
